@@ -87,4 +87,11 @@ Lav et lille java-projekt i intellij
 Få Intellij til at lave en jar-fil (google!)
 Flyt jar-filen til din droplet (sftp)
 
+### extra øvelse
+Kig på filen Jack-Challenge.csv som kommer fra excel, gem-som CSV UTF-8
+Problemet er at der er multiline indhold i en af kolonnerne. 
+"Heldigvis" er det "rigtige" linjeskift anderledes end linjeskiftet i cellen.
+Opgaven går så ud på at få fjernet alle almindelige linjeskift så der kun er carriage return tilbage (0d).
+De oversættes så til almindelige linjeskift (line feed, 0a)
+værktøjer: asciitabel, tr og f.eks xxd til hexdump
 
