@@ -8,9 +8,9 @@
 ### onsdag d 25/8 
 
 
-### Terminal øvelse
+### Første øvelse
 Nedenfor er der en liste over kommandoer. Og her en [video](https://youtu.be/wW8azHjdmwc) 
-Opgaven består i at spotte de vi aktioner der forekomeer
+Opgaven består i at spotte de vi aktioner der forekommer
 
 Editor - vi
 
@@ -42,6 +42,41 @@ Editor - vi
   yw : sletter og er klar til at erstatte med nyt   
   p : paster hvad der er gemt i clipboard   
   r : replace character  
+
+
+
+### Anden øvelse
+
+Hent de to settings-filer fra dagens repo
+Diff de to filer
+Tilføj vha cat forskellen til bunden af settings.xml
+Åben settings.xml med vi og tilføj Id,username og password fra den anden fil
+
+### Tredje øvelse
+(der følger intro idag til kommandoerne nedenfor)
+
+Hent loc.tar.bz2 fra dagens repo
+Lav en folder hvor du kan pakke filen ud
+Pak filerne ud i denne folder (tar og bzip2)
+Find de unikke ip-adresser (grep, sort, uniq samt "pipe")
+Find ud hvor mange gang de optræder (uniq)
+
+### Fjerde øvelse - jeopardy
+Hent master_season1-35clean.tsv.gz
+Lav en folder hvor du kan arbejde med filen 
+hvor mange linjer? (enten vi eller cat | wc)
+Lav en lille testfil med 10 linjer
+(brug f.eks head og ">" til at lægge x antal linjer ind i en ny fil)
+
+### Femte øvelse - jeopardy
+brug cut til at hente det første felt ud og find hyppigheden (sort og uniq)
+brug cut til at hente kategori-feltet ud og find hyppigheden
+
+### sjette øvelse
+(tricky og driller tit (mig :-))
+Lav et lille java-projekt i intellij
+Få Intellij til at lave en jar-fil (google!)
+Flyt jar-filen til din droplet (sftp)
 
 
 
