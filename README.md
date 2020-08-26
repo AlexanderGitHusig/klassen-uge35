@@ -52,13 +52,22 @@ Diff de to filer
 Tilføj vha cat forskellen til bunden af settings.xml
 Åben settings.xml med vi og tilføj Id,username og password fra den anden fil
 
+### Tredje øvelse - forberedelse
+a) find doubletter
+kig på loc-prepare-1.txt og find ud af hvilken linje forekommer 2 gange
+kør nu flg kommando: cat loc-prepare-1.txt | sort | uniq -c
+åben filen og slet dubletten
+b) find ved hjælp af samme teknik - kombineret med cut - ud af hvor mange der kommer fra Køge
+c) kig på loc-prepare-2.txt og lav en liste over ip-adressernes hyppighed - samme teknik som ovenfor
+
+
 ### Tredje øvelse
 (der følger intro idag til kommandoerne nedenfor)
 
 Hent loc.tar.bz2 fra dagens repo
 Lav en folder hvor du kan pakke filen ud
 Pak filerne ud i denne folder (tar og bzip2)
-Find de unikke ip-adresser (grep, sort, uniq samt "pipe")
+Find de unikke ip-adresser (grep, sort, uniq samt "pipe")  
 Find ud hvor mange gang de optræder (uniq)
 
 ### Fjerde øvelse - jeopardy
