@@ -95,3 +95,10 @@ Opgaven går så ud på at få fjernet alle almindelige linjeskift så der kun e
 De oversættes så til almindelige linjeskift (line feed, 0a)
 værktøjer: asciitabel, tr og f.eks xxd til hexdump
 
+### extra øvelse
+Kig på file cars.csv
+Hvor mange forskellige typer er der?
+antag at du har en database med en tabel til biler. Den skal nu fyldes op med bilerne fra filen.
+Overvej hvordan du kan bruge følgende:
+cat  cars.csv |  while read x; do echo "insert into cars (..) values();";done
+
