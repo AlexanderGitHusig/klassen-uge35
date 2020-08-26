@@ -24,7 +24,7 @@ Editor - vi
   vha hjkl tasterne  
   vha w tasten (ét ord ad gangen)  
   vha e + shift g  
-  vha <linjenummer> + shift g  
+  vha linjenummer + shift g  
   vha 0 : flyt hen til starten af linjen  
   vha $ : flyt hen til slutningen af linjen  
 
