@@ -88,4 +88,3 @@ Få Intellij til at lave en jar-fil (google!)
 Flyt jar-filen til din droplet (sftp)
 
 
-
