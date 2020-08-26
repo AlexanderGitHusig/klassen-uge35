@@ -15,11 +15,11 @@ Opgaven består i at spotte de vi aktioner der forekomeer
 Editor - vi
 
 1) micro cheat-sheet  
-kommandoer  
+#### kommandoer  
   u : undo  
   n : redo last command  
 
-####navigation 
+#### navigation 
 
   vha hjkl tasterne  
   vha w tasten (ét ord ad gangen)  
@@ -29,8 +29,8 @@ kommandoer
   vha $ : flyt hen til slutningen af linjen  
 
 
-####redigere
-
+#### redigere
+ 
   x : sletter én karakter  
   dw : sletter et ord ad gangen  
   dd : sletter en linje ad gangen   
